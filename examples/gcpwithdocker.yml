@@ -33,7 +33,7 @@ onboot:
     binds:
      - /proc/sys/fs/binfmt_misc:/binfmt_misc
     readonly: true
- - name: format
+  - name: format
     image: "linuxkit/format:53748000acf515549d398e6ae68545c26c0f3a2e"
     binds:
      - /dev:/dev
