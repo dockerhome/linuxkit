@@ -31,7 +31,8 @@ cat > role-policy.json <<FILE
             "s3:ListBucket",
             "s3:GetBucketLocation"
          ],
-         "Resource": [
+   #Change linuxkit-images to your S3 Bucket Name
+   "Resource": [
             "arn:aws:s3:::linuxkit-images"
          ]
       },
